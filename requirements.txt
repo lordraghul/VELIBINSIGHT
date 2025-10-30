@@ -1,0 +1,17 @@
+# ETL & Data
+pandas
+pyspark
+requests
+sqlalchemy
+psycopg2-binary
+
+# Orchestration
+apache-airflow
+
+# Monitoring (export métriques Airflow/Spark vers Grafana)
+prometheus-client        # juste pour exposer les métriques
+grafana-api              # interaction avec Grafana (upload dashboards, etc.)
+
+# Utilitaires
+python-dotenv            # gestion des variables d'environnement
+loguru                   # logging propre et coloré
