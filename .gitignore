@@ -1,0 +1,33 @@
+# Environment
+.env
+
+# Logs
+*.log
+data/logs/
+
+# Data
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker
+docker/*.tar
+docker-compose.override.yml
+
+# Kubernetes / temporary
+k8s/*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Build / artifacts
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
